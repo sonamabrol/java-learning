@@ -27,7 +27,7 @@ public class List_Learning {
 			System.out.println(listOfFavNames.get(i));
 		}*/
 		
-/*		List<String> myNewList = new ArrayList<>();
+		/*		List<String> myNewList = new ArrayList<>();
 		
 		myNewList.addAll(listOfFavNames);  //copied the listOfFavNames to myNewList
 		*/
@@ -39,10 +39,16 @@ public class List_Learning {
             	  if(str.equals("Sachin")){
             		  count++;
             	  }
+            	  
+            	  System.out.println(str);
+            	  
 
               }
+              
+           
               System.out.println("my count of Sachin is : "+count);
-			
+			   
+              
 			
 			/*if(listOfFavNames.contains("Sachin")){
 				
