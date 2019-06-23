@@ -19,7 +19,6 @@ public class Set_Learning {
 		setOfFavNames.add("Virat");
 		setOfFavNames.add("Sachin");
 		setOfFavNames.add("Dhoni");
-		setOfFavNames.add("Varun");
 		setOfFavNames.add("Virat");
 		setOfFavNames.add("Sachin");
 		setOfFavNames.add("Dhoni");
