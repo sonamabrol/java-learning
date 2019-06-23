@@ -24,6 +24,11 @@ public class Set_Learning {
 		setOfFavNames.add("Dhoni");
 		setOfFavNames.add("Varun");
 		setOfFavNames.add("Virat");
+		setOfFavNames.add("Varun");
+		setOfFavNames.add("Virat");
+		
+		setOfFavNames.add("Varun");
+		setOfFavNames.add("Virat");
 		
 		for(String str : setOfFavNames){
 			System.out.println(str);
