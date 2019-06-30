@@ -20,8 +20,8 @@ public class DoWhileLearning {
 		do{
 			System.out.println(myNums[j]);
 			j++;
-		}while(j<myNums.length);
-		
+		}while(j<myNums.length); // if this is true do block will run else not
+		////note: length of myNums array is : 5
 		
 	}
 

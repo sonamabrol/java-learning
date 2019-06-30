@@ -35,6 +35,8 @@ public class Set_Learning {
 
 		}
 		
+		System.out.println(setOfFavNames.isEmpty());
+		
 		
 	}
 

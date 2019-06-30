@@ -17,12 +17,19 @@ public class ArrayLearning {
 		
 		System.out.println(myNumbers[1]);
 		
+		//default value of int is 0
+		
+		System.out.println(myNumbers[6]);
+		
 		String[] myStrings = new String[7];
 		myStrings[0] = "first";
 		myStrings[1] = "Second";
 		myStrings[2] = "Third";
 		myStrings[3] = "Fourth";
 		
+		System.out.println(myStrings[2]);
+		
+		// default value of String is null
 		System.out.println(myStrings[6]);
  	}
 
