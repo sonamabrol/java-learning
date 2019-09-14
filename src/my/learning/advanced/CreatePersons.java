@@ -16,7 +16,7 @@ public class CreatePersons {
 		//p1.setFirstName("Narindra");
 		narindra.setLastName("Modi");
 		narindra.setFirstName("Narindra");
-		narindra.setAddress(a1);
+
 		
 		//creating another object p2 to store data of another person
 		Person rahul = new Person();
@@ -31,7 +31,7 @@ public class CreatePersons {
 		a2.setStreetName("232423 Kings st");
 		a2.setZipCode(20145);
 		
-		rahul.setAddress(a2);
+
 		
 		
 		

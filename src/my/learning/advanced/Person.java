@@ -1,11 +1,13 @@
 package my.learning.advanced;
 
+import java.util.Objects;
+
 public class Person {
 	
 	private String firstName;
 	private String lastName;
-	private Address address;
-	
+	private int age;
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -18,13 +20,27 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public Address getAddress() {
-		return address;
-	}
-	public void setAddress(Address address) {
-		this.address = address;
-	}
-	
-	
 
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Person person = (Person) o;
+		return age == person.age &&
+				firstName.equals(person.firstName) &&
+				lastName.equals(person.lastName);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(firstName, lastName, age);
+	}
 }
