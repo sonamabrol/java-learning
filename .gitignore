@@ -4,3 +4,11 @@
 .project
 .settings
 
+/out/
+.iml
+/*.iml
+/.iml/
+/sample-projects/calculating-budget/calculating-budget.iml
+/.idea/vcs.xml
+/.idea/modules.xml
+/.idea/misc.xml

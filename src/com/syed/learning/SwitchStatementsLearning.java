@@ -6,7 +6,7 @@ public class SwitchStatementsLearning {
 
 	public static void main(String[] args){
 
-		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);// to get the values from the keyboard
 
 		System.out.println("please enter your number : ");
 

@@ -4,13 +4,17 @@ public class ReverseYourString {
 	
 	public static void main(String[] args){
 		
-		String rs= "I live in Alexenderiad";
-		String myReversedString = "";
-		for(int i=rs.length()-1;i>=0;i--){
-			myReversedString = myReversedString +rs.charAt(i);
+String sa ="I am Sonam";
+String newsa = "";
+
+		for (int i= sa.length()-1;i>=0; i--) {
+			newsa=newsa+sa.charAt(i);
+
+
+
 		}
-		
-		System.out.println(myReversedString);
+		System.out.println(newsa);
+
 	}
 
 }
