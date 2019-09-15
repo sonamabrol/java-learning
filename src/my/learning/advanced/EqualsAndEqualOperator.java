@@ -40,6 +40,9 @@ public class EqualsAndEqualOperator {
       p4.setLastName("Bhatt");
       p4.setAge(25);
 
+      System.out.println(">>>>> return from person equals method "+ p1.equals(p2));
+
+
       Set<Person> uniquePersons = new HashSet<>();
 
       uniquePersons.add(p1);
