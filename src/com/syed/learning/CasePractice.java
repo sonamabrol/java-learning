@@ -2,7 +2,7 @@ package com.syed.learning;
 
 import java.util.Scanner;
 
-public class casePractice {
+public class CasePractice extends ReverseYourString {
 
     public static void main(String[] args) {
 
@@ -10,8 +10,7 @@ public class casePractice {
 
         int myNumber = 0;
         while(myNumber != 4){
-
-            System.out.println("Please enter your number: ");
+             System.out.println("Please enter your number: ");
              myNumber = scan.nextInt();
         switch (myNumber) {
             case 2: {
